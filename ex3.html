@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex3.css">
+    <title>Form Access Manager</title>
+</head>
+<body>
+    <div>
+        <label for="name">Username:</label>
+        <input type="text"
+               id="name"
+        name="name" >
+    </div>   
+    <div>
+        <label for="password">Password: </label>
+        <input type="password"
+               id="password"
+               name="email" >
+    </div>
+
+    <div>
+        <label for="city">City of Employment:</label>
+        <input type="text" >
+    </div>
+
+    <div>
+        <label for="City">Web sever:</label>
+        <select name="province" >
+            <option value="1" >-Choose a server-</option>
+            <option value="2">Hà Nội</option>
+            <option value="3">Thanh Hóa</option>
+        </select>
+    </div>
+
+    <div class="Please">
+        <label >Please specify your role:</label>
+        <div class="menu">
+            <label ><input type="radio" id="admin" name="admin">Admin</label>
+            <label ><input type="radio" id="engineer" name="admin">Engineer</label>
+            <label ><input type="radio" id="manager" name="admin">Manager</label>
+            <label ><input type="radio" id="guest" name="guest">Guest</label>
+        </div>
+    </div>
+
+    <div class="single">
+        <label>Single Sign-on co the following:</label>
+        <div class="menu">
+            <label ><input type="checkbox">Mail</label>
+            <label ><input type="checkbox">Payroll</label>
+            <label ><input type="checkbox">Self-service</label>
+        </div>
+    </div>
+
+    <div class="login">
+        <button >Login</button>
+        <button>Rest</button>
+    </div>
+</body>
+</html>

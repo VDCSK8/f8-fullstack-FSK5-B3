@@ -1,0 +1,66 @@
+
+
+.container {
+    padding: 10px 20px;
+  }
+h2{
+    position: relative;
+}
+h2.heading::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: orange;
+    height: 2px;
+    width: 50px;
+    left: 0px;
+    bottom: -10px;
+    border: 50%;
+  }
+
+.body{
+    display: flex;
+}
+.contact{
+    width: 200px;
+    margin-top: 40px;
+}
+.contact__item{
+    display: flex;
+    align-items: center;
+    color: rgb(134, 130, 125);
+}
+.contact__item-icon{
+    font-size: 20px;
+}
+.contact__item-desc{
+    margin-left: 20px;
+}
+
+.form{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.form__body{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    row-gap: 10px;
+
+}
+
+.form__body-input {
+    padding: 7px;
+    width: 150%;
+    border: 2px solid lightgray;
+}
+.btn{
+    width: 130px;
+    height: 30px;
+    background: rgb(0, 128, 102);
+    color: aliceblue;
+    border: rgb(0, 128, 102);
+}
+
+  
+  
